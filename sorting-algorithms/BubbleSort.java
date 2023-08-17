@@ -12,7 +12,7 @@ public class BubbleSort {
                     isSwapped = false;
                 }
             }
-            if (isSwapped)
+            if (!isSwapped)
                 return arr;
         }
         return arr;
